@@ -51,6 +51,9 @@ public class pig extends JavaPlugin {
 			  Vector dir = p.getLocation().getDirection();
 		      Vector v = new Vector(dir.getX() * 4D, 2D, dir.getZ() * 4D);
 			  
+		    //player.getWorld().playEffect(player.getLocation(), Effect.SMOKE, 1000, 1000);		    	 
+              
+		      
 			  LivingEntity e = p.getWorld().spawnCreature(p.getLocation(), CreatureType.PIG);
 			  e.setVelocity(v);
 			  
