@@ -1,0 +1,9 @@
+name: ChristmasTree
+version: 1.0
+description: BOOOOM!
+authors: [hammale]
+main: me.hammale.pig.pig
+commands:
+    pig:
+        description: "Makes a terrorist pig"
+        usage: "Pig 1.0 commands: /pig"
